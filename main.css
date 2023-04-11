@@ -1,0 +1,39 @@
+/* 
+### CSS
+- Each article should use a different font family.
+- All article headings should be the same font color (don't be boring).
+- Site should have a background color or background image. Images google filtered for "Royalty Free"
+- Each article should have a different border(weight,style,color).
+
+NOTE: If you have less than two previous employers, either use your educational instituions as a substitute or make them up.
+*/
+body {
+    background-color: rgb(53, 16, 16);
+}
+
+h1 { 
+    color: rgb(194, 113, 7);
+}
+
+h2 { 
+    color:rgb(252, 166, 6)
+}
+
+article { 
+    padding: 10px;
+}
+
+#articleOne {
+    font-family: 'Courier New';
+    border: 1px dotted rgb(221, 191, 108);
+}
+
+#articleTwo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px solid purple
+}
+
+#articleThree {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 10px dashed pink
+}
